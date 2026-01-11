@@ -66,7 +66,10 @@ function Index() {
             <div className="audio-wave">
               <span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
-            <span className="font-display text-xl">Onze Audio Lab</span>
+            <div className="flex flex-col">
+              <span className="font-display text-xl">Baluna</span>
+              <span className="text-xs tracking-wide" style={{ color: colors.textMuted }}>Audio Lab</span>
+            </div>
           </div>
           <a 
             href="#contact" 
@@ -104,7 +107,7 @@ function Index() {
       
       {/* Footer */}
       <footer className="font-body py-8 text-center text-sm border-t" style={{ borderColor: colors.border, color: colors.textMuted }}>
-        <p>© {new Date().getFullYear()} Onze Audio Lab. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Baluna Audio Lab. All rights reserved.</p>
       </footer>
     </div>
   );
@@ -170,7 +173,7 @@ function ValueSection() {
     <section className="py-24 relative">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="font-display text-4xl md:text-5xl text-center mb-4">
-          Why <span style={{ color: colors.accent }}>Onze</span>?
+          Why <span style={{ color: colors.accent }}>Baluna</span>?
         </h2>
         <p className="font-body text-center mb-16 max-w-xl mx-auto" style={{ color: colors.textMuted }}>
           Professional results without the agency overhead
