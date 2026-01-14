@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-// Custom color palette - warm professional tones
+// Custom color palette - cool professional tones
 const colors = {
   bg: "#0f0f0f",
   bgCard: "#1a1a1a",
   bgCardHover: "#222",
-  accent: "#e8a946",
-  accentMuted: "#c4892e",
+  accent: "#00e7ff",
+  accentMuted: "#00b8cc",
   text: "#f5f5f5",
   textMuted: "#9a9a9a",
   border: "#2a2a2a",
@@ -22,7 +22,7 @@ function Index() {
         .font-body { font-family: 'DM Sans', sans-serif; }
         
         .waveform-bg {
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' preserveAspectRatio='none'%3E%3Cpath fill='%23e8a94608' d='M0,192L48,176C96,160,192,128,288,138.7C384,149,480,203,576,202.7C672,203,768,149,864,128C960,107,1056,117,1152,138.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320' preserveAspectRatio='none'%3E%3Cpath fill='%2300e7ff08' d='M0,192L48,176C96,160,192,128,288,138.7C384,149,480,203,576,202.7C672,203,768,149,864,128C960,107,1056,117,1152,138.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
           background-size: 100% 100%;
         }
         
