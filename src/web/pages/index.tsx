@@ -63,11 +63,13 @@ function Index() {
       <nav className="font-body fixed top-0 left-0 right-0 z-50 backdrop-blur-md border-b" style={{ background: `${colors.bg}ee`, borderColor: colors.border }}>
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="audio-wave">
-              <span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
+            <img 
+              src="./level-14-logo.png" 
+              alt="Level 14" 
+              className="h-10 w-auto"
+            />
             <div className="flex flex-col">
-              <span className="font-display text-xl">Audio 14</span>
+              <span className="font-display text-xl">Level 14</span>
               <span className="text-xs tracking-wide" style={{ color: colors.textMuted }}>Audio Lab</span>
             </div>
           </div>
@@ -107,7 +109,7 @@ function Index() {
       
       {/* Footer */}
       <footer className="font-body py-8 text-center text-sm border-t" style={{ borderColor: colors.border, color: colors.textMuted }}>
-        <p>© {new Date().getFullYear()} Audio 14 — Audio Lab. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Level 14 — Audio Lab. All rights reserved.</p>
       </footer>
     </div>
   );
@@ -173,7 +175,7 @@ function ValueSection() {
     <section className="py-24 relative">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="font-display text-4xl md:text-5xl text-center mb-4">
-          Why <span style={{ color: colors.accent }}>Audio 14</span>?
+          Why <span style={{ color: colors.accent }}>Level 14</span>?
         </h2>
         <p className="font-body text-center mb-16 max-w-xl mx-auto" style={{ color: colors.textMuted }}>
           Professional results without the agency overhead
