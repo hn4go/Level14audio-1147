@@ -64,7 +64,7 @@ function Index() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
-              src="./level-14-logo.png" 
+              src="./level-14-logo-cyan-flBDFSiBeks40vBdS1jDQ.png" 
               alt="Level 14" 
               className="h-10 w-auto"
             />
